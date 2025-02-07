@@ -1,46 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang=en>
 <head>
-    <meta charset="UTF-8">
-    <title>Social Lesson</title>
-<link rel="icon" type="image/x-icon" href="/channels4_profile.jpg">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        #pagination,#videos,h1{margin-top:20px}#pagination button,.navbar{background-color:#007bff}#videos,.loading,.videox{display:flex}body{background-color:#f0f9ff;color:#333;font-family:Arial,sans-serif}h1{text-align:center;color:#0056b3}.videox{flex-direction:column;align-items:center}#videos{flex-wrap:wrap;justify-content:center;gap:20px}#videos div{width:45%;max-width:500px;padding:10px;background-color:#fff;box-shadow:0 4px 6px rgba(0,0,0,.1);border-radius:8px;transition:transform .3s,box-shadow .3s}#videos div:hover{transform:translateY(-10px);box-shadow:0 8px 12px rgba(0,0,0,.2)}iframe{width:100%;border-radius:8px;border:none}#pagination span{font-weight:700;margin-right:10px}#pagination button{margin:0 5px;padding:5px 10px;border:none;color:#fff;border-radius:5px;cursor:pointer;transition:background-color .3s}#pagination button:hover{background-color:#0056b3}@keyframes loading{0%,100%{opacity:.5}50%{opacity:1}}.loading{justify-content:center;align-items:center;animation:1.5s infinite loading;font-size:24px;color:#007bff}@media (max-width:768px){#videos div{width:90%}}
-    </style>
+<meta charset=UTF-8>
+<title>Social Lesson</title>
+<link rel=icon type=image/x-icon href=/channels4_profile.jpg>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js></script>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css>
+<style>#pagination,#videos,h1{margin-top:20px}#pagination button,.navbar{background-color:#007bff}#videos,.loading,.videox{display:flex}body{background-color:#f0f9ff;color:#333;font-family:Arial,sans-serif}h1{text-align:center;color:#0056b3}.videox{flex-direction:column;align-items:center}#videos{flex-wrap:wrap;justify-content:center;gap:20px}#videos div{width:45%;max-width:500px;padding:10px;background-color:#fff;box-shadow:0 4px 6px rgba(0,0,0,.1);border-radius:8px;transition:transform .3s,box-shadow .3s}#videos div:hover{transform:translateY(-10px);box-shadow:0 8px 12px rgba(0,0,0,.2)}iframe{width:100%;border-radius:8px;border:none}#pagination span{font-weight:700;margin-right:10px}#pagination button{margin:0 5px;padding:5px 10px;border:none;color:#fff;border-radius:5px;cursor:pointer;transition:background-color .3s}#pagination button:hover{background-color:#0056b3}@keyframes loading{0%,100%{opacity:.5}50%{opacity:1}}.loading{justify-content:center;align-items:center;animation:1.5s infinite loading;font-size:24px;color:#007bff}@media (max-width:768px){#videos div{width:90%}.navbar-nav{text-align:center}.navbar-toggler{margin-left:auto}iframe{height:200px}#pagination{text-align:center;margin-top:15px}}@media (max-width:480px){h1{font-size:1.5rem}#videos div{width:100%}iframe{height:180px}}</style>
 </head>
 <body>
-  <div class="bodyContent">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Social Lesson</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <div class="navbar-nav">
-                <a class="nav-link" href="/Social-Lesson/new.html" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
-                <a class="nav-link" href="https://wa.me/+923044803324" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-                <a class="nav-link" href="/Social-Lesson/new.html" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-                <a class="nav-link" href="/Social-Lesson/new.html" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
-                <a class="nav-link" href="/Social-Lesson/new.html" target="_blank"><i class="fab fa-twitter"></i> X</a>
-                <a class="nav-link" href="https://www.youtube.com/channel/UCaC1vI8n9zwlwuueuZngOWw" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
-            </div>
-        </div>
-    </nav>
-          <h1>All Social Lesson Videos</h1>
-    <div class="videox">
-            <div id="videos"></div>
-        <div id="pagination" style="margin-top: 20px;"></div>
-    </div>
+<div class=bodyContent>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<a class=navbar-brand href=#>Social Lesson</a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarNav aria-controls=navbarNav aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id=navbarNav>
+<div class=navbar-nav>
+<a class=nav-link href=/Social-Lesson/new.html target=_blank><i class="fab fa-facebook-f"></i> Facebook</a>
+<a class=nav-link href=https://wa.me/+923044803324 target=_blank><i class="fab fa-whatsapp"></i> WhatsApp</a>
+<a class=nav-link href=/Social-Lesson/new.html target=_blank><i class="fab fa-instagram"></i> Instagram</a>
+<a class=nav-link href=/Social-Lesson/new.html target=_blank><i class="fab fa-telegram-plane"></i> Telegram</a>
+<a class=nav-link href=/Social-Lesson/new.html target=_blank><i class="fab fa-twitter"></i> X</a>
+<a class=nav-link href=https://www.youtube.com/channel/UCaC1vI8n9zwlwuueuZngOWw target=_blank><i class="fab fa-youtube"></i> YouTube</a>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>const API_KEY="AIzaSyBGnrrP5iGUpZgWtapFBkxuAnNg5ei6U-k";const API_URL="https://www.googleapis.com/youtube/v3";let allVideos=[];let currentPage=1;const videosPerPage=4;function getChannelUploads(channelId){$.ajax({url:`${API_URL}/channels`,method:"GET",data:{key:API_KEY,part:"contentDetails",id:channelId},success:function(response){if(response.items.length>0){const uploadsId=response.items[0].contentDetails.relatedPlaylists.uploads;fetchVideosFromPlaylist(uploadsId)}},error:function(error){console.error("Error fetching channel details:",error)}})}
-function fetchVideosFromPlaylist(playlistId){$.ajax({url:`${API_URL}/playlistItems`,method:"GET",data:{key:API_KEY,part:"snippet",maxResults:50,playlistId:playlistId},success:function(response){allVideos=response.items;setupPagination();displayVideos(currentPage)},error:function(error){console.error("Error fetching videos from playlist:",error)}})}
-function displayVideos(page){const videoContainer=document.getElementById("videos");videoContainer.innerHTML="";const start=(page-1)*videosPerPage;const end=Math.min(start+videosPerPage,allVideos.length);for(let i=start;i<end;i++){const video=allVideos[i];const iframe=document.createElement("iframe");iframe.width="500";iframe.height="255";iframe.src=`https://www.youtube.com/embed/${video.snippet.resourceId.videoId}`;iframe.allowFullscreen=!0;const title=document.createElement("p");title.innerText=video.snippet.title;const videoDiv=document.createElement("div");videoDiv.classList.add("video-item");videoDiv.appendChild(iframe);videoDiv.appendChild(title);videoContainer.appendChild(videoDiv)}}
-function setupPagination(){const paginationContainer=document.getElementById("pagination");paginationContainer.innerHTML="<span>Page No.</span>";const totalPages=Math.ceil(allVideos.length/videosPerPage);for(let i=1;i<=totalPages;i++){const pageLink=document.createElement("button");pageLink.classList.add("pageButton");pageLink.innerText=i;pageLink.onclick=function(){currentPage=i;displayVideos(currentPage)};paginationContainer.appendChild(pageLink)}}
-document.addEventListener("DOMContentLoaded",function(){const channelId="UCaC1vI8n9zwlwuueuZngOWw";getChannelUploads(channelId)})</script>
+</div>
+</nav>
+<h1>All Social Lesson Videos</h1>
+<div class=videox>
+<div id=videos></div>
+<div id=pagination style=margin-top:20px></div>
+</div>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js></script>
+<script>const API_KEY="AIzaSyBGnrrP5iGUpZgWtapFBkxuAnNg5ei6U-k",API_URL="https://www.googleapis.com/youtube/v3";let allVideos=[],currentPage=1;const videosPerPage=4;function getChannelUploads(e){$.ajax({url:`${API_URL}/channels`,method:"GET",data:{key:API_KEY,part:"contentDetails",id:e},success:function(e){if(e.items.length>0){fetchVideosFromPlaylist(e.items[0].contentDetails.relatedPlaylists.uploads)}},error:function(e){console.error("Error fetching channel details:",e)}})}function fetchVideosFromPlaylist(e){$.ajax({url:`${API_URL}/playlistItems`,method:"GET",data:{key:API_KEY,part:"snippet",maxResults:50,playlistId:e},success:function(e){allVideos=e.items,setupPagination(),displayVideos(currentPage)},error:function(e){console.error("Error fetching videos from playlist:",e)}})}function displayVideos(e){const t=document.getElementById("videos");t.innerHTML="";const n=4*(e-1),o=Math.min(n+4,allVideos.length);for(let e=n;e<o;e++){const n=allVideos[e],o=document.createElement("iframe");o.width="500",o.height="255",o.src=`https://www.youtube.com/embed/${n.snippet.resourceId.videoId}`,o.allowFullscreen=!0;const i=document.createElement("p");i.innerText=n.snippet.title;const s=document.createElement("div");s.classList.add("video-item"),s.appendChild(o),s.appendChild(i),t.appendChild(s)}}function setupPagination(){const e=document.getElementById("pagination");e.innerHTML="<span>Page No.</span>";const t=Math.ceil(allVideos.length/4);for(let n=1;n<=t;n++){const t=document.createElement("button");t.classList.add("pageButton"),t.innerText=n,t.onclick=function(){currentPage=n,displayVideos(currentPage)},e.appendChild(t)}}document.addEventListener("DOMContentLoaded",(function(){getChannelUploads("UCaC1vI8n9zwlwuueuZngOWw")}))</script>
 </body>
 </html>
